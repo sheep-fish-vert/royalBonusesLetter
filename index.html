@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>test letter</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<style type="text/css">
+    /* CLIENT-SPECIFIC STYLES */
+    #outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */
+    .ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+    .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */
+    body, table, td, a{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+    table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+    img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+
+    /* RESET STYLES */
+    body{margin:0; padding:0;}
+    img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+    table{border-collapse:collapse !important;}
+    body{height:100% !important; margin:0; padding:0; width:100% !important;}
+
+    /* iOS BLUE LINKS */
+    .appleBody a {color:#68440a; text-decoration: none;}
+    .appleFooter a {color:#009fda; text-decoration: none;}
+
+    /* MOBILE STYLES */
+    @media screen and (max-width: 590px) {
+
+        /* ALLOWS FOR FLUID TABLES */
+        table[class="wrapper"]{
+          width:100% !important;
+        }
+
+        /* ADJUSTS LAYOUT OF LOGO IMAGE */
+        td[class="logo"]{
+          text-align: left;
+          padding: 20px 0 20px 0 !important;
+        }
+
+        td[class="logo"] img{
+          margin:0 auto!important;
+        }
+
+        /* USE THESE CLASSES TO HIDE CONTENT ON MOBILE */
+        td[class="mobile-hide"]{
+          display:none;}
+
+        img[class="mobile-hide"]{
+          display: none !important;
+        }
+
+        img[class="img-max"]{
+          max-width: 100% !important;
+          height:auto !important;
+        }
+
+        /* FULL-WIDTH TABLES */
+        table[class="responsive-table"]{
+          width:100%!important;
+        }
+        table[class="max-table"]{
+          max-width:100%!important;
+        }
+
+        /* UTILITY CLASSES FOR ADJUSTING PADDING ON MOBILE */
+        td[class="mob-center"]{
+         text-align: center;
+        }
+
+        td[class="padding"]{
+          padding: 10px 5% 15px 5% !important;
+        }
+
+        td[class="padding-copy"]{
+          padding: 10px 5% 10px 5% !important;
+          text-align: center;
+        }
+
+        td[class="padding-meta"]{
+          padding: 30px 5% 0px 5% !important;
+          text-align: center;
+        }
+
+        td[class="no-pad"]{
+          padding: 0 0 20px 0 !important;
+        }
+
+        td[class="no-padding"]{
+          padding: 0 !important;
+        }
+
+/*        td[class="section-padding"]{
+          padding: 30px 15px 30px 15px !important;
+        }*/
+
+        td[class="section-padding-bottom-image"]{
+          padding: 50px 15px 0 15px !important;
+        }
+
+        /* ADJUST BUTTONS ON MOBILE */
+        td[class="mobile-wrapper"]{
+            padding: 5px 5% 5px 5% !important;
+        }
+
+        table[class="mobile-button-container"]{
+            margin:0 auto;
+            width:100% !important;
+        }
+
+        a[class="mobile-button"]{
+            width:80% !important;
+            padding: 15px !important;
+            border: 0 !important;
+            font-size: 16px !important;
+        }
+
+    }
+</style>
+</head>
+<body style="margin: 0; padding: 0;">
+
+<!-- HEADER -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td bgcolor="#ffffff">
+            <div align="center" style="padding: 0px 15px 0px 15px;">
+                <table border="0" cellpadding="0" cellspacing="0" width="560" class="wrapper">
+                    <!-- LOGO/PREHEADER TEXT -->
+                    <tr>
+                        <td style="padding: 15px 0px 23px 0px;" class="logo">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tr>
+                                    <td bgcolor="#ffffff" width="200" align="left">
+                                      <a href="" target="_blank">
+                                        <img alt="Logo" src="http://test116.sheep.fish/img/logo.png" width="181" height="83" style="display: block; font-family: Helvetica, Arial, sans-serif; color: #424242; font-size: 16px;" border="0">
+                                      </a>
+                                    </td>
+                                    <td bgcolor="#ffffff" width="400" align="right" class="mobile-hide">
+                                        <table border="0" cellpadding="0" cellspacing="0">
+                                           <tr>
+                                                <td align="right" style="padding: 0 0 5px 0; font-size: 14px; font-family: Arial, sans-serif; color: #666666; text-decoration: none;">
+                                                    <a href="http://google.com" target="_blank">
+                                                      <img alt="social" src="http://test116.sheep.fish/img/soc-1.png" width="24" height="16" style="display: block; font-family: Helvetica, Arial, sans-serif; color: #424242; font-size: 16px;" border="0">
+                                                    </a>
+                                                </td>
+                                                <td align="right" style="padding: 0 0 5px 20px; font-size: 14px; font-family: Arial, sans-serif; color: #666666; text-decoration: none;">
+                                                    <a href="http://google.com" target="_blank">
+                                                      <img alt="social" src="http://test116.sheep.fish/img/soc-2.png" width="20" height="17" style="display: block; font-family: Helvetica, Arial, sans-serif; color: #424242; font-size: 16px;" border="0">
+                                                    </a>
+                                                </td>
+                                                <td align="right" style="padding: 0 0 5px 20px; font-size: 14px; font-family: Arial, sans-serif; color: #666666; text-decoration: none;">
+                                                    <a href="http://google.com" target="_blank">
+                                                      <img alt="social" src="http://test116.sheep.fish/img/soc-3.png" width="8" height="17" style="display: block; font-family: Helvetica, Arial, sans-serif; color: #424242; font-size: 16px;" border="0">
+                                                    </a>
+                                                </td>
+                                                <td align="right" style="padding: 0 0 5px 20px; font-size: 14px; font-family: Arial, sans-serif; color: #666666; text-decoration: none;">
+                                                    <a href="http://google.com" target="_blank">
+                                                      <img alt="social" src="http://test116.sheep.fish/img/soc-4.png" width="25" height="15" style="display: block; font-family: Helvetica, Arial, sans-serif; color: #424242; font-size: 16px;" border="0">
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </td>
+    </tr>
+</table>
+
+<!-- TWO COLUMN SECTION -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td bgcolor="#ffffff" align="center" style="padding: 0px 0px 0px 0px;" class="section-padding">
+            <table border="0" cellpadding="0" cellspacing="0" width="560" class="responsive-table" style="background: #f6f6f6;border-top: 1px solid #ededed;border-left: 1px solid #c8c8c8;border-right: 1px solid #c8c8c8;">
+                <tr>
+                    <td style="padding: 25px 0px 0px 0px;">
+                        <!-- TITLE SECTION AND COPY -->
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td align="center" style="font-size: 24px; font-family: Arial, sans-serif; color: #424242;font-weight: bold;" class="padding-copy">Welcome to Royal Bonuses</td>
+                            </tr>
+                            <tr>
+                                <td align="center" style="padding: 20px 20px 20px 20px; font-size: 14px; line-height: 18px; font-family: Arial, sans-serif; color: #969696;" class="padding-copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding: 0 20px;">
+                        <!-- TWO COLUMNS -->
+                        <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                                <td valign="top" style="padding: 0;" class="mobile-wrapper">
+                                    <!-- LEFT COLUMN -->
+                                    <table cellpadding="0" cellspacing="0" border="0" width="46%" align="left" class="responsive-table">
+                                        <tr>
+                                            <td style="padding: 10px 0 10px 0;">
+                                                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                    <tr>
+                                                        <td align="center" valign="middle">
+                                                          <a href="http://google.com" target="_blank">
+                                                            <img src="http://test116.sheep.fish/img/fluid-images-1.png" width="250" height="125" style="display: block; color: #424242; font-family: Helvetica, arial, sans-serif; font-size: 13px; width: 250px; height: 125px;" alt="images" border="0" class="img-max">
+                                                          </a>
+                                                          </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="padding: 5px 0 0 0; font-family: Arial, sans-serif; color: #2c2c2c; font-size: 14px;font-weight: bold;text-transform: uppercase;    height: 60px;" class="mob-center">Low Wagering! 100% Bonus Up To €100 Free Cash</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="center" style="padding: 5px 0 0 0; font-family: Arial, sans-serif; color: #424242; font-size: 14px; line-height: 20px;">
+
+                                                          <table border="0" cellspacing="0" cellpadding="0" width="46%" align="left">
+                                                              <tr>
+                                                                  <td align="center">
+                                                                      <!-- BULLETPROOF BUTTON -->
+                                                                      <table width="100%" border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                                                                          <tr>
+                                                                              <td align="center" style="padding: 0;" class="padding-copy">
+                                                                                  <table border="0" cellspacing="0" cellpadding="0" class="responsive-table">
+                                                                                      <tr>
+                                                                                          <td align="center"><a href="http://google.com" target="_blank" style="font-size: 14px; font-family: Arial, sans-serif; font-weight: bold; color: #ffffff; text-decoration: none; background-color: #a5d000; border-top: 10px solid #a5d000; border-bottom: 10px solid #a5d000; border-left: 10px solid #a5d000; border-right: 10px solid #a5d000; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block;text-transform: uppercase;" class="mobile-button">visit casino</a></td>
+                                                                                      </tr>
+                                                                                  </table>
+                                                                              </td>
+                                                                          </tr>
+                                                                      </table>
+                                                                  </td>
+                                                              </tr>
+                                                          </table>
+                                                          <table border="0" cellspacing="0" cellpadding="0" width="46%" align="right">
+                                                              <tr>
+                                                                  <td align="center">
+                                                                      <!-- BULLETPROOF BUTTON -->
+                                                                      <table width="100%" border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                                                                          <tr>
+                                                                              <td align="center" style="padding: 0;" class="padding-copy">
+                                                                                  <table border="0" cellspacing="0" cellpadding="0" class="responsive-table">
+                                                                                      <tr>
+                                                                                          <td align="center"><a href="http://google.com" target="_blank" style="font-size: 14px; font-family: Arial, sans-serif; font-weight: bold; color: #ffffff; text-decoration: none; background-color: #666666; border-top: 10px solid #666666; border-bottom: 10px solid #666666; border-left: 10px solid #666666; border-right: 10px solid #666666; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block;text-transform: uppercase;" class="mobile-button">read more</a></td>
+                                                                                      </tr>
+                                                                                  </table>
+                                                                              </td>
+                                                                          </tr>
+                                                                      </table>
+                                                                  </td>
+                                                              </tr>
+                                                          </table>
+
+
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- RIGHT COLUMN -->
+                                    <table cellpadding="0" cellspacing="0" border="0" width="46%" align="right" class="responsive-table">
+                                        <tr>
+                                            <td style="padding: 10px 0 10px 0;">
+                                                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                    <tr>
+                                                        <td align="center" valign="middle">
+                                                          <a href="http://google.com" target="_blank">
+                                                            <img src="http://test116.sheep.fish/img/fluid-images-2.png" width="250" height="125" style="display: block; color: #424242; font-family: Helvetica, arial, sans-serif; font-size: 13px; width: 250px; height: 125px;" alt="images" border="0" class="img-max">
+                                                          </a>
+                                                          </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="padding: 5px 0 0 0; font-family: Arial, sans-serif; color: #2c2c2c; font-size: 14px;font-weight: bold;text-transform: uppercase;    height: 60px;" class="mob-center">50 Free Spins on "Starburst". No Deposit Required</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="center" style="padding: 5px 0 0 0; font-family: Arial, sans-serif; color: #424242; font-size: 14px; line-height: 20px;">
+
+                                                          <table border="0" cellspacing="0" cellpadding="0" width="46%" align="left">
+                                                              <tr>
+                                                                  <td align="center">
+                                                                      <!-- BULLETPROOF BUTTON -->
+                                                                      <table width="100%" border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                                                                          <tr>
+                                                                              <td align="center" style="padding: 0;" class="padding-copy">
+                                                                                  <table border="0" cellspacing="0" cellpadding="0" class="responsive-table">
+                                                                                      <tr>
+                                                                                          <td align="center"><a href="http://google.com" target="_blank" style="font-size: 14px; font-family: Arial, sans-serif; font-weight: bold; color: #ffffff; text-decoration: none; background-color: #a5d000; border-top: 10px solid #a5d000; border-bottom: 10px solid #a5d000; border-left: 10px solid #a5d000; border-right: 10px solid #a5d000; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block;text-transform: uppercase;" class="mobile-button">visit casino</a></td>
+                                                                                      </tr>
+                                                                                  </table>
+                                                                              </td>
+                                                                          </tr>
+                                                                      </table>
+                                                                  </td>
+                                                              </tr>
+                                                          </table>
+                                                          <table border="0" cellspacing="0" cellpadding="0" width="46%" align="right">
+                                                              <tr>
+                                                                  <td align="center">
+                                                                      <!-- BULLETPROOF BUTTON -->
+                                                                      <table width="100%" border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                                                                          <tr>
+                                                                              <td align="center" style="padding: 0;" class="padding-copy">
+                                                                                  <table border="0" cellspacing="0" cellpadding="0" class="responsive-table">
+                                                                                      <tr>
+                                                                                          <td align="center"><a href="http://google.com" target="_blank" style="font-size: 14px; font-family: Arial, sans-serif; font-weight: bold; color: #ffffff; text-decoration: none; background-color: #666666; border-top: 10px solid #666666; border-bottom: 10px solid #666666; border-left: 10px solid #666666; border-right: 10px solid #666666; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block;text-transform: uppercase;" class="mobile-button">read more</a></td>
+                                                                                      </tr>
+                                                                                  </table>
+                                                                              </td>
+                                                                          </tr>
+                                                                      </table>
+                                                                  </td>
+                                                              </tr>
+                                                          </table>
+
+
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding: 0 20px 20px;">
+                        <!-- TWO COLUMNS -->
+                        <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                                <td valign="top" style="padding: 0;" class="mobile-wrapper">
+                                    <!-- LEFT COLUMN -->
+                                    <table cellpadding="0" cellspacing="0" border="0" width="46%" align="left" class="responsive-table">
+                                        <tr>
+                                            <td style="padding: 10px 0 10px 0;">
+                                                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                    <tr>
+                                                        <td align="center" valign="middle">
+                                                          <a href="http://google.com" target="_blank">
+                                                            <img src="http://test116.sheep.fish/img/fluid-images-3.png" width="250" height="125" style="display: block; color: #424242; font-family: Helvetica, arial, sans-serif; font-size: 13px; width: 250px; height: 125px;" alt="images" border="0" class="img-max">
+                                                          </a>
+                                                          </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="padding: 5px 0 0 0; font-family: Arial, sans-serif; color: #2c2c2c; font-size: 14px;font-weight: bold;text-transform: uppercase;    height: 60px;" class="mob-center">50 Free Spins on "Starburst".No Deposit Required</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="center" style="padding: 5px 0 0 0; font-family: Arial, sans-serif; color: #424242; font-size: 14px; line-height: 20px;">
+
+                                                          <table border="0" cellspacing="0" cellpadding="0" width="46%" align="left">
+                                                              <tr>
+                                                                  <td align="center">
+                                                                      <!-- BULLETPROOF BUTTON -->
+                                                                      <table width="100%" border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                                                                          <tr>
+                                                                              <td align="center" style="padding: 0;" class="padding-copy">
+                                                                                  <table border="0" cellspacing="0" cellpadding="0" class="responsive-table">
+                                                                                      <tr>
+                                                                                          <td align="center"><a href="http://google.com" target="_blank" style="font-size: 14px; font-family: Arial, sans-serif; font-weight: bold; color: #ffffff; text-decoration: none; background-color: #a5d000; border-top: 10px solid #a5d000; border-bottom: 10px solid #a5d000; border-left: 10px solid #a5d000; border-right: 10px solid #a5d000; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block;text-transform: uppercase;" class="mobile-button">visit casino</a></td>
+                                                                                      </tr>
+                                                                                  </table>
+                                                                              </td>
+                                                                          </tr>
+                                                                      </table>
+                                                                  </td>
+                                                              </tr>
+                                                          </table>
+                                                          <table border="0" cellspacing="0" cellpadding="0" width="46%" align="right">
+                                                              <tr>
+                                                                  <td align="center">
+                                                                      <!-- BULLETPROOF BUTTON -->
+                                                                      <table width="100%" border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                                                                          <tr>
+                                                                              <td align="center" style="padding: 0;" class="padding-copy">
+                                                                                  <table border="0" cellspacing="0" cellpadding="0" class="responsive-table">
+                                                                                      <tr>
+                                                                                          <td align="center"><a href="http://google.com" target="_blank" style="font-size: 14px; font-family: Arial, sans-serif; font-weight: bold; color: #ffffff; text-decoration: none; background-color: #666666; border-top: 10px solid #666666; border-bottom: 10px solid #666666; border-left: 10px solid #666666; border-right: 10px solid #666666; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block;text-transform: uppercase;" class="mobile-button">read more</a></td>
+                                                                                      </tr>
+                                                                                  </table>
+                                                                              </td>
+                                                                          </tr>
+                                                                      </table>
+                                                                  </td>
+                                                              </tr>
+                                                          </table>
+
+
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- RIGHT COLUMN -->
+                                    <table cellpadding="0" cellspacing="0" border="0" width="46%" align="right" class="responsive-table">
+                                        <tr>
+                                            <td style="padding: 10px 0 10px 0;">
+                                                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                    <tr>
+                                                        <td align="center" valign="middle">
+                                                          <a href="http://google.com" target="_blank">
+                                                            <img src="http://test116.sheep.fish/img/fluid-images-4.png" width="250" height="125" style="display: block; color: #424242; font-family: Helvetica, arial, sans-serif; font-size: 13px; width: 250px; height: 125px;" alt="images" border="0" class="img-max">
+                                                          </a>
+                                                          </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="padding: 5px 0 0 0; font-family: Arial, sans-serif; color: #2c2c2c; font-size: 14px;font-weight: bold;text-transform: uppercase;    height: 60px;" class="mob-center">50 Free Spins on "Starburst". No Deposit Required</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="center" style="padding: 5px 0 0 0; font-family: Arial, sans-serif; color: #424242; font-size: 14px; line-height: 20px;">
+
+                                                          <table border="0" cellspacing="0" cellpadding="0" width="46%" align="left">
+                                                              <tr>
+                                                                  <td align="center">
+                                                                      <!-- BULLETPROOF BUTTON -->
+                                                                      <table width="100%" border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                                                                          <tr>
+                                                                              <td align="center" style="padding: 0;" class="padding-copy">
+                                                                                  <table border="0" cellspacing="0" cellpadding="0" class="responsive-table">
+                                                                                      <tr>
+                                                                                          <td align="center"><a href="http://google.com" target="_blank" style="font-size: 14px; font-family: Arial, sans-serif; font-weight: bold; color: #ffffff; text-decoration: none; background-color: #a5d000; border-top: 10px solid #a5d000; border-bottom: 10px solid #a5d000; border-left: 10px solid #a5d000; border-right: 10px solid #a5d000; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block;text-transform: uppercase;" class="mobile-button">visit casino</a></td>
+                                                                                      </tr>
+                                                                                  </table>
+                                                                              </td>
+                                                                          </tr>
+                                                                      </table>
+                                                                  </td>
+                                                              </tr>
+                                                          </table>
+                                                          <table border="0" cellspacing="0" cellpadding="0" width="46%" align="right">
+                                                              <tr>
+                                                                  <td align="center">
+                                                                      <!-- BULLETPROOF BUTTON -->
+                                                                      <table width="100%" border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                                                                          <tr>
+                                                                              <td align="center" style="padding: 0;" class="padding-copy">
+                                                                                  <table border="0" cellspacing="0" cellpadding="0" class="responsive-table">
+                                                                                      <tr>
+                                                                                          <td align="center"><a href="http://google.com" target="_blank" style="font-size: 14px; font-family: Arial, sans-serif; font-weight: bold; color: #ffffff; text-decoration: none; background-color: #666666; border-top: 10px solid #666666; border-bottom: 10px solid #666666; border-left: 10px solid #666666; border-right: 10px solid #666666; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block;text-transform: uppercase;" class="mobile-button">read more</a></td>
+                                                                                      </tr>
+                                                                                  </table>
+                                                                              </td>
+                                                                          </tr>
+                                                                      </table>
+                                                                  </td>
+                                                              </tr>
+                                                          </table>
+
+
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+
+<!-- COMPACT ARTICLE SECTION -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td align="center"  class="section-padding">
+            <table border="0" cellpadding="0" cellspacing="0" width="560" style="padding:0 0 20px 0;background: #f6f6f6;border-bottom: 1px solid #c8c8c8;border-left: 1px solid #c8c8c8;border-right: 1px solid #c8c8c8;" class="responsive-table">
+                <tr>
+                    <td valign="top" style="padding: 16px 0 16px 20px;background: #e5e5e5;" >
+                     <a href="http://google.com" target="_blank">
+                       <img src="http://test116.sheep.fish/img/middle-item-1.png" alt="" width="90" height="90" border="0" style="display: block; font-family: Arial; color: #424242; font-size: 14px; width: 90px; height: 90px;">
+                     </a>
+                    </td>
+                    <td style="background: #e5e5e5;">
+                        <!-- ARTICLE -->
+                        <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                            <tr>
+                                <td align="left" style="padding: 0px 0 16px 20px; font-size: 14px; font-family:Arial, sans-serif; font-weight: bold; color: #2c2c2c;text-transform: uppercase;" class="padding-copy">50 Free Spins on "Starburst". No Deposit Required</td>
+                            </tr>
+                            <tr>
+                                <td style="padding:0 0 10px 20px;" align="left" width="50%">
+
+                                   <table border="0" cellspacing="0" cellpadding="0" width="100%" style="max-width: 250px;" class="max-table">
+                                    <tr>
+                                     <td>
+                                      <table border="0" cellspacing="0" cellpadding="0" width="46%" align="left" class="responsive-table">
+                                          <tr>
+                                              <td align="center">
+                                                  <!-- BULLETPROOF BUTTON -->
+                                                  <table width="100%" border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                                                      <tr>
+                                                          <td align="center" style="padding: 0;" class="padding-copy">
+                                                              <table border="0" cellspacing="0" cellpadding="0" class="responsive-table">
+                                                                  <tr>
+                                                                      <td align="center"><a href="http://google.com" target="_blank" style="font-size: 14px; font-family: Arial, sans-serif; font-weight: bold; color: #ffffff; text-decoration: none; background-color: #a5d000; border-top: 10px solid #a5d000; border-bottom: 10px solid #a5d000; border-left: 10px solid #a5d000; border-right: 10px solid #a5d000; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block;text-transform: uppercase;" class="mobile-button">visit casino</a></td>
+                                                                  </tr>
+                                                              </table>
+                                                          </td>
+                                                      </tr>
+                                                  </table>
+                                              </td>
+                                          </tr>
+                                      </table>
+                                      <table border="0" cellspacing="0" cellpadding="0" width="46%" align="right" class="responsive-table">
+                                          <tr>
+                                              <td align="center">
+                                                  <!-- BULLETPROOF BUTTON -->
+                                                  <table width="100%" border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                                                      <tr>
+                                                          <td align="center" style="padding: 0;" class="padding-copy">
+                                                              <table border="0" cellspacing="0" cellpadding="0" class="responsive-table">
+                                                                  <tr>
+                                                                      <td align="center"><a href="http://google.com" target="_blank" style="font-size: 14px; font-family: Arial, sans-serif; font-weight: bold; color: #ffffff; text-decoration: none; background-color: #666666; border-top: 10px solid #666666; border-bottom: 10px solid #666666; border-left: 10px solid #666666; border-right: 10px solid #666666; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block;text-transform: uppercase;" class="mobile-button">read more</a></td>
+                                                                  </tr>
+                                                              </table>
+                                                          </td>
+                                                      </tr>
+                                                  </table>
+                                              </td>
+                                          </tr>
+                                      </table>
+                                     </td>
+                                    </tr>
+                                   </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top" style="padding: 16px 0 16px 20px;" >
+                     <a href="http://google.com" target="_blank">
+                       <img src="http://test116.sheep.fish/img/middle-item-1.png" alt="" width="90" height="90" border="0" style="display: block; font-family: Arial; color: #424242; font-size: 14px; width: 90px; height: 90px;">
+                     </a>
+                    </td>
+                    <td>
+                        <!-- ARTICLE -->
+                        <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                            <tr>
+                                <td align="left" style="padding: 0px 0 16px 20px; font-size: 14px; font-family:Arial, sans-serif; font-weight: bold; color: #2c2c2c;text-transform: uppercase;" class="padding-copy">50 Free Spins on "Starburst". No Deposit Required</td>
+                            </tr>
+                            <tr>
+                                <td style="padding:0 0 10px 20px;" align="left" width="50%">
+
+                                   <table border="0" cellspacing="0" cellpadding="0" width="100%" style="max-width: 250px;" class="max-table">
+                                    <tr>
+                                     <td>
+                                      <table border="0" cellspacing="0" cellpadding="0" width="46%" align="left" class="responsive-table">
+                                          <tr>
+                                              <td align="center">
+                                                  <!-- BULLETPROOF BUTTON -->
+                                                  <table width="100%" border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                                                      <tr>
+                                                          <td align="center" style="padding: 0;" class="padding-copy">
+                                                              <table border="0" cellspacing="0" cellpadding="0" class="responsive-table">
+                                                                  <tr>
+                                                                      <td align="center"><a href="http://google.com" target="_blank" style="font-size: 14px; font-family: Arial, sans-serif; font-weight: bold; color: #ffffff; text-decoration: none; background-color: #a5d000; border-top: 10px solid #a5d000; border-bottom: 10px solid #a5d000; border-left: 10px solid #a5d000; border-right: 10px solid #a5d000; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block;text-transform: uppercase;" class="mobile-button">visit casino</a></td>
+                                                                  </tr>
+                                                              </table>
+                                                          </td>
+                                                      </tr>
+                                                  </table>
+                                              </td>
+                                          </tr>
+                                      </table>
+                                      <table border="0" cellspacing="0" cellpadding="0" width="46%" align="right" class="responsive-table">
+                                          <tr>
+                                              <td align="center">
+                                                  <!-- BULLETPROOF BUTTON -->
+                                                  <table width="100%" border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                                                      <tr>
+                                                          <td align="center" style="padding: 0;" class="padding-copy">
+                                                              <table border="0" cellspacing="0" cellpadding="0" class="responsive-table">
+                                                                  <tr>
+                                                                      <td align="center"><a href="http://google.com" target="_blank" style="font-size: 14px; font-family: Arial, sans-serif; font-weight: bold; color: #ffffff; text-decoration: none; background-color: #666666; border-top: 10px solid #666666; border-bottom: 10px solid #666666; border-left: 10px solid #666666; border-right: 10px solid #666666; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block;text-transform: uppercase;" class="mobile-button">read more</a></td>
+                                                                  </tr>
+                                                              </table>
+                                                          </td>
+                                                      </tr>
+                                                  </table>
+                                              </td>
+                                          </tr>
+                                      </table>
+                                     </td>
+                                    </tr>
+                                   </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top" style="padding: 16px 0 16px 20px;background: #e5e5e5;" >
+                     <a href="http://google.com" target="_blank">
+                       <img src="http://test116.sheep.fish/img/middle-item-1.png" alt="" width="90" height="90" border="0" style="display: block; font-family: Arial; color: #424242; font-size: 14px; width: 90px; height: 90px;">
+                     </a>
+                    </td>
+                    <td style="background: #e5e5e5;">
+                        <!-- ARTICLE -->
+                        <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                            <tr>
+                                <td align="left" style="padding: 0px 0 16px 20px; font-size: 14px; font-family:Arial, sans-serif; font-weight: bold; color: #2c2c2c;text-transform: uppercase;" class="padding-copy">50 Free Spins on "Starburst". No Deposit Required</td>
+                            </tr>
+                            <tr>
+                                <td style="padding:0 0 10px 20px;" align="left" width="50%">
+
+                                   <table border="0" cellspacing="0" cellpadding="0" width="100%" style="max-width: 250px;" class="max-table">
+                                    <tr>
+                                     <td>
+                                      <table border="0" cellspacing="0" cellpadding="0" width="46%" align="left" class="responsive-table">
+                                          <tr>
+                                              <td align="center">
+                                                  <!-- BULLETPROOF BUTTON -->
+                                                  <table width="100%" border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                                                      <tr>
+                                                          <td align="center" style="padding: 0;" class="padding-copy">
+                                                              <table border="0" cellspacing="0" cellpadding="0" class="responsive-table">
+                                                                  <tr>
+                                                                      <td align="center"><a href="http://google.com" target="_blank" style="font-size: 14px; font-family: Arial, sans-serif; font-weight: bold; color: #ffffff; text-decoration: none; background-color: #a5d000; border-top: 10px solid #a5d000; border-bottom: 10px solid #a5d000; border-left: 10px solid #a5d000; border-right: 10px solid #a5d000; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block;text-transform: uppercase;" class="mobile-button">visit casino</a></td>
+                                                                  </tr>
+                                                              </table>
+                                                          </td>
+                                                      </tr>
+                                                  </table>
+                                              </td>
+                                          </tr>
+                                      </table>
+                                      <table border="0" cellspacing="0" cellpadding="0" width="46%" align="right" class="responsive-table">
+                                          <tr>
+                                              <td align="center">
+                                                  <!-- BULLETPROOF BUTTON -->
+                                                  <table width="100%" border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                                                      <tr>
+                                                          <td align="center" style="padding: 0;" class="padding-copy">
+                                                              <table border="0" cellspacing="0" cellpadding="0" class="responsive-table">
+                                                                  <tr>
+                                                                      <td align="center"><a href="http://google.com" target="_blank" style="font-size: 14px; font-family: Arial, sans-serif; font-weight: bold; color: #ffffff; text-decoration: none; background-color: #666666; border-top: 10px solid #666666; border-bottom: 10px solid #666666; border-left: 10px solid #666666; border-right: 10px solid #666666; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block;text-transform: uppercase;" class="mobile-button">read more</a></td>
+                                                                  </tr>
+                                                              </table>
+                                                          </td>
+                                                      </tr>
+                                                  </table>
+                                              </td>
+                                          </tr>
+                                      </table>
+                                     </td>
+                                    </tr>
+                                   </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top" style="padding: 16px 0 16px 20px;" >
+                     <a href="http://google.com" target="_blank">
+                       <img src="http://test116.sheep.fish/img/middle-item-1.png" alt="" width="90" height="90" border="0" style="display: block; font-family: Arial; color: #424242; font-size: 14px; width: 90px; height: 90px;">
+                     </a>
+                    </td>
+                    <td>
+                        <!-- ARTICLE -->
+                        <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                            <tr>
+                                <td align="left" style="padding: 0px 0 16px 20px; font-size: 14px; font-family:Arial, sans-serif; font-weight: bold; color: #2c2c2c;text-transform: uppercase;" class="padding-copy">50 Free Spins on "Starburst". No Deposit Required</td>
+                            </tr>
+                            <tr>
+                                <td style="padding:0 0 10px 20px;" align="left" width="50%">
+
+                                   <table border="0" cellspacing="0" cellpadding="0" width="100%" style="max-width: 250px;" class="max-table">
+                                    <tr>
+                                     <td>
+                                      <table border="0" cellspacing="0" cellpadding="0" width="46%" align="left" class="responsive-table">
+                                          <tr>
+                                              <td align="center">
+                                                  <!-- BULLETPROOF BUTTON -->
+                                                  <table width="100%" border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                                                      <tr>
+                                                          <td align="center" style="padding: 0;" class="padding-copy">
+                                                              <table border="0" cellspacing="0" cellpadding="0" class="responsive-table">
+                                                                  <tr>
+                                                                      <td align="center"><a href="http://google.com" target="_blank" style="font-size: 14px; font-family: Arial, sans-serif; font-weight: bold; color: #ffffff; text-decoration: none; background-color: #a5d000; border-top: 10px solid #a5d000; border-bottom: 10px solid #a5d000; border-left: 10px solid #a5d000; border-right: 10px solid #a5d000; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block;text-transform: uppercase;" class="mobile-button">visit casino</a></td>
+                                                                  </tr>
+                                                              </table>
+                                                          </td>
+                                                      </tr>
+                                                  </table>
+                                              </td>
+                                          </tr>
+                                      </table>
+                                      <table border="0" cellspacing="0" cellpadding="0" width="46%" align="right" class="responsive-table">
+                                          <tr>
+                                              <td align="center">
+                                                  <!-- BULLETPROOF BUTTON -->
+                                                  <table width="100%" border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                                                      <tr>
+                                                          <td align="center" style="padding: 0;" class="padding-copy">
+                                                              <table border="0" cellspacing="0" cellpadding="0" class="responsive-table">
+                                                                  <tr>
+                                                                      <td align="center"><a href="http://google.com" target="_blank" style="font-size: 14px; font-family: Arial, sans-serif; font-weight: bold; color: #ffffff; text-decoration: none; background-color: #666666; border-top: 10px solid #666666; border-bottom: 10px solid #666666; border-left: 10px solid #666666; border-right: 10px solid #666666; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block;text-transform: uppercase;" class="mobile-button">read more</a></td>
+                                                                  </tr>
+                                                              </table>
+                                                          </td>
+                                                      </tr>
+                                                  </table>
+                                              </td>
+                                          </tr>
+                                      </table>
+                                     </td>
+                                    </tr>
+                                   </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top" style="padding: 16px 0 16px 20px;background: #e5e5e5;" >
+                     <a href="http://google.com" target="_blank">
+                       <img src="http://test116.sheep.fish/img/middle-item-1.png" alt="" width="90" height="90" border="0" style="display: block; font-family: Arial; color: #424242; font-size: 14px; width: 90px; height: 90px;">
+                     </a>
+                    </td>
+                    <td style="background: #e5e5e5;">
+                        <!-- ARTICLE -->
+                        <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                            <tr>
+                                <td align="left" style="padding: 0px 0 16px 20px; font-size: 14px; font-family:Arial, sans-serif; font-weight: bold; color: #2c2c2c;text-transform: uppercase;" class="padding-copy">50 Free Spins on "Starburst". No Deposit Required</td>
+                            </tr>
+                            <tr>
+                                <td style="padding:0 0 10px 20px;" align="left" width="50%">
+
+                                   <table border="0" cellspacing="0" cellpadding="0" width="100%" style="max-width: 250px;" class="max-table">
+                                    <tr>
+                                     <td>
+                                      <table border="0" cellspacing="0" cellpadding="0" width="46%" align="left" class="responsive-table">
+                                          <tr>
+                                              <td align="center">
+                                                  <!-- BULLETPROOF BUTTON -->
+                                                  <table width="100%" border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                                                      <tr>
+                                                          <td align="center" style="padding: 0;" class="padding-copy">
+                                                              <table border="0" cellspacing="0" cellpadding="0" class="responsive-table">
+                                                                  <tr>
+                                                                      <td align="center"><a href="http://google.com" target="_blank" style="font-size: 14px; font-family: Arial, sans-serif; font-weight: bold; color: #ffffff; text-decoration: none; background-color: #a5d000; border-top: 10px solid #a5d000; border-bottom: 10px solid #a5d000; border-left: 10px solid #a5d000; border-right: 10px solid #a5d000; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block;text-transform: uppercase;" class="mobile-button">visit casino</a></td>
+                                                                  </tr>
+                                                              </table>
+                                                          </td>
+                                                      </tr>
+                                                  </table>
+                                              </td>
+                                          </tr>
+                                      </table>
+                                      <table border="0" cellspacing="0" cellpadding="0" width="46%" align="right" class="responsive-table">
+                                          <tr>
+                                              <td align="center">
+                                                  <!-- BULLETPROOF BUTTON -->
+                                                  <table width="100%" border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                                                      <tr>
+                                                          <td align="center" style="padding: 0;" class="padding-copy">
+                                                              <table border="0" cellspacing="0" cellpadding="0" class="responsive-table">
+                                                                  <tr>
+                                                                      <td align="center"><a href="http://google.com" target="_blank" style="font-size: 14px; font-family: Arial, sans-serif; font-weight: bold; color: #ffffff; text-decoration: none; background-color: #666666; border-top: 10px solid #666666; border-bottom: 10px solid #666666; border-left: 10px solid #666666; border-right: 10px solid #666666; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block;text-transform: uppercase;" class="mobile-button">read more</a></td>
+                                                                  </tr>
+                                                              </table>
+                                                          </td>
+                                                      </tr>
+                                                  </table>
+                                              </td>
+                                          </tr>
+                                      </table>
+                                     </td>
+                                    </tr>
+                                   </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top" style="padding: 16px 0 16px 20px;" >
+                     <a href="http://google.com" target="_blank">
+                       <img src="http://test116.sheep.fish/img/middle-item-1.png" alt="" width="90" height="90" border="0" style="display: block; font-family: Arial; color: #424242; font-size: 14px; width: 90px; height: 90px;">
+                     </a>
+                    </td>
+                    <td>
+                        <!-- ARTICLE -->
+                        <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                            <tr>
+                                <td align="left" style="padding: 0px 0 16px 20px; font-size: 14px; font-family:Arial, sans-serif; font-weight: bold; color: #2c2c2c;text-transform: uppercase;" class="padding-copy">50 Free Spins on "Starburst". No Deposit Required</td>
+                            </tr>
+                            <tr>
+                                <td style="padding:0 0 10px 20px;" align="left" width="50%">
+
+                                   <table border="0" cellspacing="0" cellpadding="0" width="100%" style="max-width: 250px;" class="max-table">
+                                    <tr>
+                                     <td>
+                                      <table border="0" cellspacing="0" cellpadding="0" width="46%" align="left" class="responsive-table">
+                                          <tr>
+                                              <td align="center">
+                                                  <!-- BULLETPROOF BUTTON -->
+                                                  <table width="100%" border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                                                      <tr>
+                                                          <td align="center" style="padding: 0;" class="padding-copy">
+                                                              <table border="0" cellspacing="0" cellpadding="0" class="responsive-table">
+                                                                  <tr>
+                                                                      <td align="center"><a href="http://google.com" target="_blank" style="font-size: 14px; font-family: Arial, sans-serif; font-weight: bold; color: #ffffff; text-decoration: none; background-color: #a5d000; border-top: 10px solid #a5d000; border-bottom: 10px solid #a5d000; border-left: 10px solid #a5d000; border-right: 10px solid #a5d000; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block;text-transform: uppercase;" class="mobile-button">visit casino</a></td>
+                                                                  </tr>
+                                                              </table>
+                                                          </td>
+                                                      </tr>
+                                                  </table>
+                                              </td>
+                                          </tr>
+                                      </table>
+                                      <table border="0" cellspacing="0" cellpadding="0" width="46%" align="right" class="responsive-table">
+                                          <tr>
+                                              <td align="center">
+                                                  <!-- BULLETPROOF BUTTON -->
+                                                  <table width="100%" border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                                                      <tr>
+                                                          <td align="center" style="padding: 0;" class="padding-copy">
+                                                              <table border="0" cellspacing="0" cellpadding="0" class="responsive-table">
+                                                                  <tr>
+                                                                      <td align="center"><a href="http://google.com" target="_blank" style="font-size: 14px; font-family: Arial, sans-serif; font-weight: bold; color: #ffffff; text-decoration: none; background-color: #666666; border-top: 10px solid #666666; border-bottom: 10px solid #666666; border-left: 10px solid #666666; border-right: 10px solid #666666; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block;text-transform: uppercase;" class="mobile-button">read more</a></td>
+                                                                  </tr>
+                                                              </table>
+                                                          </td>
+                                                      </tr>
+                                                  </table>
+                                              </td>
+                                          </tr>
+                                      </table>
+                                     </td>
+                                    </tr>
+                                   </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+<!-- FOOTER -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td bgcolor="#ffffff" align="center">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                <tr>
+                    <td style="padding: 25px 0px 20px 0px;">
+                        <!-- UNSUBSCRIBE COPY -->
+                        <table width="560" border="0" cellspacing="0" cellpadding="0" align="center" class="responsive-table">
+                            <tr>
+                              <td>
+                               <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                 <tr>
+                                  <td align="center" style="padding: 0px 5px 20px 5px; font-size: 12px; font-family:Arial, sans-serif; font-weight: bold; color: #888888;" >
+                                    <a href="http://google.com" target="_blank">
+                                      <img src="http://test116.sheep.fish/img/footer-img.png" width="112" height="41" style="display: block; color: #424242; font-family: arial, sans-serif; font-size: 13px; width: 112px; height: 41px;" alt="images" border="0">
+                                    </a>
+                                  </td>
+                                 </tr>
+                               </table>
+                              </td>
+                            </tr>
+                            <tr>
+                               <td>
+                                <table width="100%" style="max-width: 465px;" border="0" cellspacing="0" cellpadding="0" align="center">
+                                  <tr>
+                                   <td align="center" style="padding: 0px 5px 20px 5px; font-size: 12px; font-family:Arial, sans-serif; font-weight: bold; color: #888888;" >Please do not reply to this email. Newsletters are processed automatically. Please use <a href="http://google.com" style="color: #2c2c2c;text-decoration: none;">contact page</a> instead.</td>
+                                  </tr>
+                                </table>
+                               </td>
+                            </tr>
+                            <tr>
+                                <td align="center" valign="middle" style="font-size: 12px; line-height: 18px; font-family: Arial, sans-serif; color:#424242;">
+                                     <a class="original-only" style="color: #009fda; text-decoration: none;">Home Page</a>
+                                     <span class="original-only" style="font-family: Arial, sans-serif; font-size: 12px; color: #666666;">&nbsp;|&nbsp;</span>
+                                     <a style="color: #009fda; text-decoration: none;">Bonuses</a>
+                                     <span class="original-only" style="font-family: Arial, sans-serif; font-size: 12px; color: #666666;">&nbsp;|&nbsp;</span>
+                                     <a class="original-only" style="color: #009fda; text-decoration: none;">Casinos</a>
+                                     <span class="original-only" style="font-family: Arial, sans-serif; font-size: 12px; color: #666666;">&nbsp;|&nbsp;</span>
+                                     <a style="color: #009fda; text-decoration: none;">Casinos</a>
+                                     <span class="original-only" style="font-family: Arial, sans-serif; font-size: 12px; color: #666666;">&nbsp;|&nbsp;</span>
+                                     <a style="color: #009fda; text-decoration: none;">Bookies</a>
+                                     <a class="original-only" style="color: #009fda; text-decoration: none;">Software </a>
+                                     <span class="original-only" style="font-family: Arial, sans-serif; font-size: 12px; color: #666666;">&nbsp;|&nbsp;</span>
+                                     <a style="color: #009fda; text-decoration: none;">Contact Us</a>
+                                     <span class="original-only" style="font-family: Arial, sans-serif; font-size: 12px; color: #666666;">&nbsp;|&nbsp;</span>
+                                     <a style="color: #009fda; text-decoration: none;">News</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
